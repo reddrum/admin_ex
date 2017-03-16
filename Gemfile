@@ -39,6 +39,8 @@ gem 'devise', '~> 4.2'
 
 gem 'activeadmin', git: 'https://github.com/activeadmin/activeadmin'
 
+gem 'active_skin'
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
